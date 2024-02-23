@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../midia/bg-night.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.main-box form input {
+    display: block;
+}
+
+.main-box form {
+    margin-top: 120px;
+    padding: 50px;
+    width: 500px;
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+input {
+    background: rgba(0,0,0,0.5);
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+input[type="submit"]{
+    background-color: rgb(26, 21, 21);
+    color: white;
+    cursor: pointer;
+}
+input::placeholder {
+    color: rgb(207, 204, 204);
+}
+
+.main-box form p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(207, 204, 204);
+    line-height: 1.5em;
+}
+ 
+.main-box a {
+    font-weight: 700;
+    color: white;
+}
+
+span{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
